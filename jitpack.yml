@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=com.adfixus.android.ams.customads-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.adfixus.android.ams -DartifactId=com.adfixus.android.ams.customads -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
